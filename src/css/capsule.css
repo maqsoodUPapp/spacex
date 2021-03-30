@@ -1,0 +1,108 @@
+.card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 8px auto;
+}
+
+.capsule-header {
+    width: 100%;
+    display: flex;
+    line-height: 1;
+}
+.capsule-header > .capsule-id {
+    width: 70%;
+}
+
+.capsule-header >.capsule-serial {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+
+
+.capsule-details {
+    width: 70%;
+    padding: 0px 10px;
+    opacity: 0.8;
+}
+
+.capsule-body > .capsule-status {
+    width: 40%;
+}
+
+.capsule-body > .capsule-status > img {
+    width: 100px;
+    height: auto;
+}
+
+.capsule-footer {
+    display: flex;
+    margin-top: 15px;
+    padding: 10px 0px 0px 0px;
+    border-top: 1px solid #0000000a;
+}
+
+.capsule-launch-date > p {
+    font-size: 10px;
+    margin: 0px;
+    margin-top: -10px;
+}
+
+.capsule-landing {
+    flex: 1;
+}
+.capsule-status-text {
+    flex: 1;
+    text-align: right;
+}
+
+.capsule-body {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+span.capsule-label {
+    font-weight: 600;
+}
+
+
+img.status-img {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    padding: 10px 50px;
+}
+
+td.ant-descriptions-item-content {
+    background: #fff;
+}
+
+.status-img > img {
+    width: 100%;
+    max-width: 420px;
+}
+.status-img {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.single-caps-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+    .single-caps-container {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+}
